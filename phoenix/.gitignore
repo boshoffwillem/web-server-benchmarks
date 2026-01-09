@@ -1,0 +1,10 @@
+_build/
+deps/
+*.ez
+.env
+.env.local
+*.beam
+erl_crash.dump
+.erlang.cookie
+.elixir_ls/
+phoenix_benchmark

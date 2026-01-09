@@ -1,0 +1,81 @@
+# Dependencies and packages
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+npm-debug.log*
+yarn-error.log*
+
+# Bun
+.bun
+bun.lockb
+
+# Go
+*.o
+*.a
+*.so
+.DS_Store
+/dist/
+/bin/
+
+# .NET / ASP.NET Core
+bin/
+obj/
+.vs/
+.vscode/
+*.user
+*.suo
+*.sln.docstates
+.VisualStudioCode/
+.classpath
+.project
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+.idea/
+*.swp
+*.swo
+
+# Dart / Dart Frog
+.dart_tool/
+.flutter/
+build/
+.packages
+pubspec.lock
+.env
+.env.*
+
+# Rust and Actix
+/target/
+target/
+Cargo.lock
+**/*.rs.bk
+*.pdb
+.cargo/
+.rustup/
+
+# Elixir
+/_build/
+/cover/
+/deps/
+/doc/
+erl_crash.dump
+*.ez
+*.beam
+.elixir_ls/
+.tool-versions
+
+# OS and Editor
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+*.log
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.env.local
+.env.*.local
