@@ -7,7 +7,7 @@ defmodule AshWeb.Endpoint do
   @session_options [
     store: :cookie,
     key: "_ash_key",
-    signing_salt: "eRj3qVB6",
+    signing_salt: "21+ZzZ0L",
     same_site: "Lax"
   ]
 
@@ -30,8 +30,6 @@ defmodule AshWeb.Endpoint do
   # Code reloading can be explicitly enabled under the
   # :code_reloader configuration of your endpoint.
   if code_reloading? do
-    socket "/phoenix/live_reload/socket", Phoenix.LiveReloader.Socket
-    plug Phoenix.LiveReloader
     plug Phoenix.CodeReloader
   end
 
