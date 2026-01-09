@@ -4,7 +4,7 @@ import Config
 # you can enable the server option below.
 config :ash, AshWeb.Endpoint,
   http: [ip: {127, 0, 0, 1}, port: 4002],
-  secret_key_base: "o3b5rZDVM9ya7rc3TrbkXUZ2fQNuMSMP/0AecIPbnM731pI7izGTqtI5GNVwgIho",
+  secret_key_base: "gt0Y2/pM99P/aF+HpqdqLVj8TLqCAqnT8s3ULzI5TaCpgejrBDawxg0wCjx8uSml",
   server: false
 
 # In test we don't send emails

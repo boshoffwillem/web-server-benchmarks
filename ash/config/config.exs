@@ -19,7 +19,7 @@ config :ash, AshWeb.Endpoint,
     layout: false
   ],
   pubsub_server: Ash.PubSub,
-  live_view: [signing_salt: "QNwbcC6B"]
+  live_view: [signing_salt: "1ML1d5M9"]
 
 # Configure the mailer
 #

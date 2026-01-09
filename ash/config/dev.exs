@@ -13,7 +13,7 @@ config :ash, AshWeb.Endpoint,
   check_origin: false,
   code_reloader: true,
   debug_errors: true,
-  secret_key_base: "RZv4R999nMdWBXTGappyTFf6YIRQG4dHgZ13eq3wT0h8CrEerH5G75PnrDtrhlwU",
+  secret_key_base: "XrOdRY2KcVeQFl0gk9jq6u2iUyAiBWFbETuSrCQRw0Jq43nkAo54o8VA1pzCLCP8",
   watchers: [
     esbuild: {Esbuild, :install_and_run, [:ash, ~w(--sourcemap=inline --watch)]},
     tailwind: {Tailwind, :install_and_run, [:ash, ~w(--watch)]}

@@ -7,7 +7,7 @@ defmodule AshWeb.Endpoint do
   @session_options [
     store: :cookie,
     key: "_ash_key",
-    signing_salt: "NnPNU7Kq",
+    signing_salt: "eRj3qVB6",
     same_site: "Lax"
   ]
 
