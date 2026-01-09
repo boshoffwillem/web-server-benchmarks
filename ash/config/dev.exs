@@ -18,6 +18,8 @@ config :ash, AshWeb.Endpoint,
     esbuild: {Esbuild, :install_and_run, [:ash, ~w(--sourcemap=inline --watch)]}
   ]
 
+config :ash, AshWeb.Endpoint, server: true
+
 # ## SSL Support
 #
 # In order to use HTTPS in development, a self-signed
